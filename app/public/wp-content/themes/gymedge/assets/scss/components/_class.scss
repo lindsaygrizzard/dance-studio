@@ -1,0 +1,12 @@
+.type-days {
+	float: right;
+}
+
+.outline-padding {
+	padding: 8px 25px;
+	border: 1px solid $light-grey;
+	&.less-padding {
+		padding: 4px 15px;
+	}
+}
+

@@ -1,0 +1,34 @@
+.gallery-image {
+	position: relative;
+	margin-bottom: 30px;
+	img {
+		max-width: 100%;
+	}
+	transition: all 0.3s ease;
+	&:hover {
+		filter: brightness(90%);
+	}
+}
+
+.gallery-modal-open {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.rt-gallery-tab  {
+	background-color: $white !important;
+	border: 1px solid none !important;
+	.current {
+		background-color: $white !important;
+		border: 1px solid none !important;
+	}
+}
+
+.rt-gallery-1 .rt-gallery-tab a {
+	border: 1px solid $light-grey !important;
+	&:hover {
+		background-color: $purple-50!important;
+	}
+}

@@ -1,0 +1,77 @@
+// category page
+.instructor-list {
+	margin: 0 0 150px;
+	overflow: hidden;
+}
+
+.instructor-info {
+	padding: 0 0 25px;
+	img {
+    	border-radius: 50%;
+    	width: 150px;
+    	height: 150px;
+	    object-fit: cover;
+	}
+	h3, p {
+		display: inline-block;
+	}
+	.content {
+	    padding-top: 20px;
+	}
+}
+
+.instructor-name,
+.instructor-name a {
+	font-size: 38px;
+	font-family: $base-font-header;
+	font-weight: bold;
+	color: $black;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+
+//Single page 
+
+.instructor-image-single {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    img {
+	    display: inline;
+	    margin: 0 auto;
+	    height: auto;
+	    width: 100%;
+	}
+}
+
+.intructor-grid-item {
+	.instructor-name, img {
+		transition: all .2s ease-in-out;
+	}
+	&:hover {
+		.instructor-name {
+			color: $purple-300;
+		}
+		img {
+			 filter: brightness(97%);
+		}
+	}
+}
+
+.instructor-cats {
+	text-transform: uppercase;
+	color: $primary-color;
+	margin-bottom: 15px;
+}
+
+.detail-heading {
+	margin-bottom: 35px;
+}

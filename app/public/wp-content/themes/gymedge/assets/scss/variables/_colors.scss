@@ -1,0 +1,29 @@
+/*variables/_colors.scss */
+
+/* Main Colors */
+$light-primary-color: white;
+$dark-primary-color: black;
+$light-key-color: #B68DE3;
+$dark-key-color: #8765B2; //purple
+
+
+//SF Pole and Dance Colors
+$white: #ffffff;
+$black: #000000;
+$dark-grey: #333333;
+$light-grey: #eeeeee;
+
+$purple-50:  #D3CAEF;
+$purple-100: #BDA8E5;
+$purple-200: #B68DE3;
+$purple-300: #8450D6;
+$purple-400: #6043A8;
+$purple-500: #0B0A16;
+
+$purple: $purple-100;
+$darker-purple: $purple-400; 
+
+
+// Usage for SFPD
+$primary-color: $purple;
+$hover-primary-color: $darker-purple;
