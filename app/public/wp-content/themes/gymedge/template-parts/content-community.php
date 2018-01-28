@@ -1,4 +1,4 @@
-<div class="container vh-100 padding-top-200px padding-bottom-200px">
+<div class="container padding-top-100px padding-bottom-100px">
 	<div class="row">
 		<div class="col-xs-12 col-sm-8">
 			
@@ -13,7 +13,7 @@
 			<!-- subheader -->
 			<?php //if( get_field('hero_community_subheader') ): ?> 
 				<p class="col-xs-12 col-sm-8 padding-0px sub-header margin-bottom-30px">
-					<?php the_field('hero_community_subheader');?>
+					<?php the_field('home_community_subheader');?>
 					As students we grow together, uplifting each another with encouragement and unconditional support. We move against the grain of how society demands we behave, and practice our art according to five essential values.
 				</p>
 			<?php //endif;?>

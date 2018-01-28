@@ -1,13 +1,23 @@
+.x-large-header {
+	font-family: $base-font-header;
+	font-size: 62px;
+	font-weight: bold;
+	line-height: 72px;
+}
+
+
 .large-header {
 	font-family: $base-font-header;
 	font-size: 42px;
 	font-weight: bold;
+	line-height: 52px;
 }
 
 .medium-header {
 	font-family: $base-font-header;
 	font-size: 28px;
 	font-weight: bold;
+	line-height: 34px;
 }
 
 .sub-header {

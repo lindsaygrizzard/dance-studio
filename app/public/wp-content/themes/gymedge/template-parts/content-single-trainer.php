@@ -104,7 +104,7 @@ else{
 
 								<!-- class heading details -->
 									<div class="title margin-top-30px">
-										<h2 class="medium-header col-xs-12 col-sm-7 padding-0px margin-0px">Level 5 <?php the_sub_field('featured_class_title');?></h2>
+										<h2 class="medium-header col-xs-12 col-sm-7 padding-0px margin-0px"><?php the_sub_field('featured_class_title');?></h2>
 										<div class="col-xs-12 col-sm-5 type-days text-right">
 											<div class="outline-padding inline margin-right-10px">
 												<span class="sub-header"><?php the_sub_field('featured_class_category');?>

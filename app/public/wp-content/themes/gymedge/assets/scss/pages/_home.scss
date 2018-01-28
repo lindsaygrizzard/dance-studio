@@ -4,9 +4,51 @@
 }
 
 .instructor-list-home {
+	.carousel-wrap {
+		margin: 40px auto 40px;
+		width: 100%;
+	}
 	.owl-carousel .owl-item img {
 		width: 190px !important;
 		height: auto !important;
 		
 	}
+}
+
+.col-custom-cal {
+	width: 20%;
+	display: inline-block;
+}
+.cal-item {
+	background-color: $white;
+	height: 210px;
+	width: 210px;
+	position: relative;
+	p {
+		line-height: 1em !important
+	}
+	.cal-item-descr {
+		position: absolute;
+		bottom: 15px;
+		width: 170px;
+	}
+}
+
+.cal-dancer {
+	right: 100px;
+	top: 200px;
+}
+
+
+.testimonials {
+	.carousel-wrap {
+		margin: 0px auto;
+		width: 100%;
+		.item {}
+	}
+	// .owl-carousel-testimonial .owl-item {
+	// 	width: 190px !important;
+	// 	height: auto !important;
+		
+	// }
 }

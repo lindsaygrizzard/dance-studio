@@ -5936,6 +5936,9 @@ li {
 .padding-top-50px {
   padding-top: 50px; }
 
+.padding-top-100px {
+  padding-top: 100px; }
+
 .padding-top-200px {
   padding-top: 200px; }
 
@@ -5956,6 +5959,9 @@ li {
 
 .padding-bottom-50px {
   padding-bottom: 50px; }
+
+.padding-bottom-100px {
+  padding-bottom: 100px; }
 
 .padding-bottom-200px {
   padding-bottom: 200px; }
@@ -6112,6 +6118,9 @@ li {
 
 .black {
   color: #000000; }
+
+.bg-pink-50 {
+  background-color: #FDF9FA; }
 
 .button {
   padding: 10px 20px;
@@ -6488,15 +6497,23 @@ a {
   padding-right: 10px;
   color: #000000; }
 
+.x-large-header {
+  font-family: "Riccione", serif;
+  font-size: 62px;
+  font-weight: bold;
+  line-height: 72px; }
+
 .large-header {
   font-family: "Riccione", serif;
   font-size: 42px;
-  font-weight: bold; }
+  font-weight: bold;
+  line-height: 52px; }
 
 .medium-header {
   font-family: "Riccione", serif;
   font-size: 28px;
-  font-weight: bold; }
+  font-weight: bold;
+  line-height: 34px; }
 
 .sub-header {
   font-family: "DIN", Helvetica, Arial, sans-serif;
@@ -6566,6 +6583,34 @@ a {
   top: 35%;
   left: 125px; }
 
+.instructor-list-home .carousel-wrap {
+  margin: 40px auto 40px;
+  width: 100%; }
+
 .instructor-list-home .owl-carousel .owl-item img {
   width: 190px !important;
   height: auto !important; }
+
+.col-custom-cal {
+  width: 20%;
+  display: inline-block; }
+
+.cal-item {
+  background-color: #ffffff;
+  height: 210px;
+  width: 210px;
+  position: relative; }
+  .cal-item p {
+    line-height: 1em !important; }
+  .cal-item .cal-item-descr {
+    position: absolute;
+    bottom: 15px;
+    width: 170px; }
+
+.cal-dancer {
+  right: 100px;
+  top: 200px; }
+
+.testimonials .carousel-wrap {
+  margin: 0px auto;
+  width: 100%; }

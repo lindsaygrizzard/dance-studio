@@ -1,5 +1,5 @@
 	<div class="container-fluid padding-0px">
-		<div class="relative vh-100">
+		<div class="relative">
 			<h3 class="large-header absolute z-index-mid image-overlay-test-home">
 				Behind the scenes
 			</h3>
@@ -17,10 +17,10 @@
 
 		    	<div class="carousel-inner">
 		  			<?php while( have_rows('slider_repeater') ): the_row();?>
-		  					<div class="item <?php the_sub_field('active_class'); ?>">
-		  					  <img src="http://via.placeholder.com/350x150" alt="Los Angeles" style="width:100%;">
-		  					  <img src="<?php the_sub_field('slider_image'); ?>">
-		  					</div>
+	  					<div class="item <?php the_sub_field('active_class'); ?>">
+	  					  <img src="http://via.placeholder.com/350x150" alt="Los Angeles" style="width:100%;">
+	  					  <img src="<?php the_sub_field('slider_image'); ?>">
+	  					</div>
 		  			<?php endwhile; ?>
 	  			</div>
 	  		<?php endif;?>

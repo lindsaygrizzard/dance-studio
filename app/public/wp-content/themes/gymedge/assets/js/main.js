@@ -1,15 +1,10 @@
 jQuery(document).ready(function($){
     "use strict";
-    console.log('dskljfhlsdkjfhlksdjh')
     // Owl 
-    $('.owl-carousel').owlCarousel({
+    $('.owl-carousel-team').owlCarousel({
       loop: true,
       margin: 10,
-      nav: true,
-      navText: [
-        "<i class='fa fa-caret-left'></i>",
-        "<i class='fa fa-caret-right'></i>"
-      ],
+      nav: false,
       autoplay: true,
       autoplayHoverPause: true,
       responsive: {
@@ -24,6 +19,23 @@ jQuery(document).ready(function($){
         }
       }
     })
+
+    $('.owl-carousel-quotes').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    });
 
     /* jQuery MeanMenu */
     $('#site-navigation nav').meanmenu({
